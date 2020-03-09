@@ -1,0 +1,39 @@
+img {
+    width: 500px;
+    height: 260px;
+}
+
+.image-slide {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev {
+    background: #3fd2ff;
+    border-bottom-left-radius: 45%;
+    border-top-left-radius: 50%;
+    margin-right: 2rem;
+    border-color: transparent;
+    padding: 5px;
+}
+
+.prev:hover {
+    padding-right: 20px;
+    transition: 0.5s ease;
+}
+
+.next {
+    background: #3fd2ff;
+    border-bottom-right-radius: 45%;
+    border-top-right-radius: 50%;
+    margin-left: 2rem;
+    border-color: transparent;
+    padding: 5px;
+}
+
+.next:hover {
+    padding-left: 20px;
+    transition: 0.9s ease;
+}
